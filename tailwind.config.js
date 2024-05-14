@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "primary": ["Bowlby One", "sans-serif"],
+        "secondary": ["Paytone One", "sans-serif"]
+      },
+      colors: {
+        "primary": "#f87664",
+        "secondary": "#f5eadd"
+      }
+    },
   },
   plugins: [],
 };

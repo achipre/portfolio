@@ -1,13 +1,19 @@
 import Clock from "./components/clock";
 import Header from "./components/header";
+import { Theme } from "./components/theme";
+import { useTheme } from "./hooks/theme";
+
 
 function App() {
+  const {configTheme, handleTheme, theme} = useTheme()
   return (
-    <main className="flex flex-col md:flex-row bg-[#f87664] relative h-screen">
+    <main className={`flex flex-col md:flex-row relative h-screen bg-${theme[configTheme]}`}>
+      <Theme theme={theme} handleTheme={handleTheme} configTheme={configTheme}/>
       <Header />
       <Clock />
-      <aside className="bg-[#f5eadd] md:min-w-64 md:w-[30%] xl:p-8">
-        <h2 className="xl:text-3xl text-[#f87664]">
+      <aside className={`relative bg-${configTheme == 0 ? theme[1]: theme[0]} p-6`}>
+        <h1 className={`font-primary text-5xl text-center text-${theme[configTheme]}`}>Portfolio</h1>
+        <h2 className={`xl:text-3xl text-${theme[configTheme]} font-secondary leading-5 text-xl`}>
           Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
           enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
           exercitation amet. Nisi anim cupidatat excepteur officia.
@@ -21,7 +27,8 @@ function App() {
           consectetur et est culpa et culpa duis.{" "}
         </h2>
       </aside>
-      <main></main>
+      <main className="relative">
+      </main>
     </main>
   );
 }

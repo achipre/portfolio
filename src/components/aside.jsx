@@ -1,8 +1,9 @@
 export const Aside = ({theme,configTheme}) => {
+  console.log('text-'+theme[configTheme]);
   return (
-    <aside className={`relative bg-${configTheme === 0 ? theme[1]: theme[0]} p-6`}>
-        <h1 className={`font-primary text-5xl text-center text-${theme[configTheme]}`}>Portfolio</h1>
-        <h2 className={`xl:text-3xl text-${theme[configTheme]} font-secondary leading-5 text-xl`}>
+    <aside className={`relative ${configTheme === 0 ? 'bg-'+theme[1]: 'bg-'+theme[0]} p-6`}>
+        <h1 className={`font-bowlby text-5xl text-center ${configTheme === 0 ? 'text-primary': 'text-secondary'}`}>Portfolio</h1>
+        <h2 className={`xl:text-3xl text-${theme[configTheme]} font-paytone leading-5 text-xl`}>
           Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
           enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
           exercitation amet. Nisi anim cupidatat excepteur officia.

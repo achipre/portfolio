@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "primary": ["Bowlby One", "sans-serif"],
-        "secondary": ["Paytone One", "sans-serif"]
+        "bowlby": ["Bowlby One", "sans-serif"],
+        "paytone": ["Paytone One", "sans-serif"]
       },
       colors: {
         "primary": "#f87664",

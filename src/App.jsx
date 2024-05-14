@@ -3,11 +3,11 @@ import Header from "./components/header";
 
 function App() {
   return (
-    <main className="flex flex-col md:flex-row bg-[#000] relative h-screen">
+    <main className="flex flex-col md:flex-row bg-[#f87664] relative h-screen">
       <Header />
       <Clock />
-      <aside className="bg-[#413326] md:min-w-64 md:w-[30%] xl:p-8 text-gray-400">
-        <h2 className="xl:text-3xl">
+      <aside className="bg-[#f5eadd] md:min-w-64 md:w-[30%] xl:p-8">
+        <h2 className="xl:text-3xl text-[#f87664]">
           Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
           enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
           exercitation amet. Nisi anim cupidatat excepteur officia.

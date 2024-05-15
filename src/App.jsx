@@ -12,7 +12,11 @@ function App() {
       {/* Aside Left */}
       <Aside theme={theme} configTheme={configTheme}/>
       {/* Main */}
-      <main className="relative">
+      <main className="relative w-full">
+        <h2 className={`flex h-full justify-end gap-6 px-6 text-9xl ${configTheme === 0 ? 'text-secondary': 'text-primary'} justify-start font-bebas [writing-mode:_vertical-lr] flex-nowrap`}>
+          <span className="title-animate absolute">Calculator</span> 
+          <span className="title-animate2 absolute">Calculator</span> 
+          </h2>
       </main>
     </main>
   );

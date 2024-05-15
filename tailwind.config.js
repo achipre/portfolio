@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         "bowlby": ["Bowlby One", "sans-serif"],
-        "paytone": ["Paytone One", "sans-serif"]
+        "paytone": ["Paytone One", "sans-serif"],
+        "bebas": ["Bebas Neue", "sans-serif"],
       },
       colors: {
         "primary": "#f87664",

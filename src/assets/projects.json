@@ -1,0 +1,484 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "proyecto": "Tictactoe",
+      "link-demo": "https://example.com/tictactoe",
+      "link-repo": "https://example.com/tictactoe",
+      "techs": ["vite", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/tictactoe.png"
+    },
+    {
+      "id": 2,
+      "proyecto": "Calculator",
+      "link-demo": "https://example.com/calculator",
+      "link-repo": "https://example.com/calculator",
+      "techs": ["react", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/calculator.png"
+    },
+    {
+      "id": 3,
+      "proyecto": "Weather App",
+      "link-demo": "https://example.com/weatherapp",
+      "link-repo": "https://example.com/weatherapp",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/weatherapp.png"
+    },
+    {
+      "id": 4,
+      "proyecto": "Todo List",
+      "link-demo": "https://example.com/todolist",
+      "link-repo": "https://example.com/todolist",
+      "techs": ["angular", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/todolist.png"
+    },
+    {
+      "id": 5,
+      "proyecto": "Chat App",
+      "link-demo": "https://example.com/chatapp",
+      "link-repo": "https://example.com/chatapp",
+      "techs": ["svelte", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/chatapp.png"
+    },
+    {
+      "id": 6,
+      "proyecto": "Portfolio",
+      "link-demo": "https://example.com/portfolio",
+      "link-repo": "https://example.com/portfolio",
+      "techs": ["gatsby", "react", "css", "html"],
+      "imagen": "https://example.com/images/portfolio.png"
+    },
+    {
+      "id": 7,
+      "proyecto": "Blog",
+      "link-demo": "https://example.com/blog",
+      "link-repo": "https://example.com/blog",
+      "techs": ["nextjs", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/blog.png"
+    },
+    {
+      "id": 8,
+      "proyecto": "E-commerce",
+      "link-demo": "https://example.com/ecommerce",
+      "link-repo": "https://example.com/ecommerce",
+      "techs": ["nuxt", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/ecommerce.png"
+    },
+    {
+      "id": 9,
+      "proyecto": "Quiz App",
+      "link-demo": "https://example.com/quizapp",
+      "link-repo": "https://example.com/quizapp",
+      "techs": ["ember", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/quizapp.png"
+    },
+    {
+      "id": 10,
+      "proyecto": "Social Media Dashboard",
+      "link-demo": "https://example.com/socialmediadashboard",
+      "link-repo": "https://example.com/socialmediadashboard",
+      "techs": ["vue", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/socialmediadashboard.png"
+    },
+    {
+      "id": 11,
+      "proyecto": "Recipe App",
+      "link-demo": "https://example.com/recipeapp",
+      "link-repo": "https://example.com/recipeapp",
+      "techs": ["react", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/recipeapp.png"
+    },
+    {
+      "id": 12,
+      "proyecto": "Music Player",
+      "link-demo": "https://example.com/musicplayer",
+      "link-repo": "https://example.com/musicplayer",
+      "techs": ["angular", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/musicplayer.png"
+    },
+    {
+      "id": 13,
+      "proyecto": "Fitness Tracker",
+      "link-demo": "https://example.com/fitnesstracker",
+      "link-repo": "https://example.com/fitnesstracker",
+      "techs": ["svelte", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/fitnesstracker.png"
+    },
+    {
+      "id": 14,
+      "proyecto": "Task Manager",
+      "link-demo": "https://example.com/taskmanager",
+      "link-repo": "https://example.com/taskmanager",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/taskmanager.png"
+    },
+    {
+      "id": 15,
+      "proyecto": "News App",
+      "link-demo": "https://example.com/newsapp",
+      "link-repo": "https://example.com/newsapp",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/newsapp.png"
+    },
+    {
+      "id": 16,
+      "proyecto": "Movie Database",
+      "link-demo": "https://example.com/moviedatabase",
+      "link-repo": "https://example.com/moviedatabase",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/moviedatabase.png"
+    },
+    {
+      "id": 17,
+      "proyecto": "Online Store",
+      "link-demo": "https://example.com/onlinestore",
+      "link-repo": "https://example.com/onlinestore",
+      "techs": ["gatsby", "react", "css", "html"],
+      "imagen": "https://example.com/images/onlinestore.png"
+    },
+    {
+      "id": 18,
+      "proyecto": "Photo Gallery",
+      "link-demo": "https://example.com/photogallery",
+      "link-repo": "https://example.com/photogallery",
+      "techs": ["nuxt", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/photogallery.png"
+    },
+    {
+      "id": 19,
+      "proyecto": "Job Board",
+      "link-demo": "https://example.com/jobboard",
+      "link-repo": "https://example.com/jobboard",
+      "techs": ["ember", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/jobboard.png"
+    },
+    {
+      "id": 20,
+      "proyecto": "Event Planner",
+      "link-demo": "https://example.com/eventplanner",
+      "link-repo": "https://example.com/eventplanner",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/eventplanner.png"
+    },
+    {
+      "id": 21,
+      "proyecto": "Book Tracker",
+      "link-demo": "https://example.com/booktracker",
+      "link-repo": "https://example.com/booktracker",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/booktracker.png"
+    },
+    {
+      "id": 22,
+      "proyecto": "Language Learning App",
+      "link-demo": "https://example.com/languagelearningapp",
+      "link-repo": "https://example.com/languagelearningapp",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/languagelearningapp.png"
+    },
+    {
+      "id": 23,
+      "proyecto": "Travel Guide",
+      "link-demo": "https://example.com/travelguide",
+      "link-repo": "https://example.com/travelguide",
+      "techs": ["svelte", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/travelguide.png"
+    },
+    {
+      "id": 24,
+      "proyecto": "Expense Tracker",
+      "link-demo": "https://example.com/expensetracker",
+      "link-repo": "https://example.com/expensetracker",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/expensetracker.png"
+    },
+    {
+      "id": 25,
+      "proyecto": "Habit Tracker",
+      "link-demo": "https://example.com/habittracker",
+      "link-repo": "https://example.com/habittracker",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example/images/habittracker.png"
+    },
+    {
+      "id": 26,
+      "proyecto": "Meditation App",
+      "link-demo": "https://example.com/meditationapp",
+      "link-repo": "https://example.com/meditationapp",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/meditationapp.png"
+    },
+    {
+      "id": 27,
+      "proyecto": "Pet Adoption",
+      "link-demo": "https://example.com/petadoption",
+      "link-repo": "https://example.com/petadoption",
+      "techs": ["gatsby", "react", "css", "html"],
+      "imagen": "https://example.com/images/petadoption.png"
+    },
+    {
+      "id": 28,
+      "proyecto": "Workout App",
+      "link-demo": "https://example.com/workoutapp",
+      "link-repo": "https://example.com/workoutapp",
+      "techs": ["nuxt", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/workoutapp.png"
+    },
+    {
+      "id": 29,
+      "proyecto": "Language Translator",
+      "link-demo": "https://example.com/languagetranslator",
+      "link-repo": "https://example.com/languagetranslator",
+      "techs": ["vue", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/languagetranslator.png"
+    },
+    {
+      "id": 30,
+      "proyecto": "Fashion Store",
+      "link-demo": "https://example.com/fashionstore",
+      "link-repo": "https://example.com/fashionstore",
+      "techs": ["react", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/fashionstore.png"
+    },
+    {
+      "id": 31,
+      "proyecto": "Real Estate App",
+      "link-demo": "https://example.com/realestateapp",
+      "link-repo": "https://example.com/realestateapp",
+      "techs": ["angular", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/realestateapp.png"
+    },
+    {
+      "id": 32,
+      "proyecto": "Personal Finance",
+      "link-demo": "https://example.com/personalfinance",
+      "link-repo": "https://example.com/personalfinance",
+      "techs": ["svelte", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/personalfinance.png"
+    },
+    {
+      "id": 33,
+      "proyecto": "Online Courses",
+      "link-demo": "https://example.com/onlinecourses",
+      "link-repo": "https://example.com/onlinecourses",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/onlinecourses.png"
+    },
+    {
+      "id": 34,
+      "proyecto": "Grocery List",
+      "link-demo": "https://example.com/grocerylist",
+      "link-repo": "https://example.com/grocerylist",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/grocerylist.png"
+    },
+    {
+      "id": 35,
+      "proyecto": "Plant Care",
+      "link-demo": "https://example.com/plantcare",
+      "link-repo": "https://example.com/plantcare",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/plantcare.png"
+    },
+    {
+      "id": 36,
+      "proyecto": "Study Planner",
+      "link-demo": "https://example.com/studyplanner",
+      "link-repo": "https://example.com/studyplanner",
+      "techs": ["gatsby", "react", "css", "html"],
+      "imagen": "https://example.com/images/studyplanner.png"
+    },
+    {
+      "id": 37,
+      "proyecto": "Task Scheduler",
+      "link-demo": "https://example.com/taskscheduler",
+      "link-repo": "https://example.com/taskscheduler",
+      "techs": ["nuxt", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/taskscheduler.png"
+    },
+    {
+      "id": 38,
+      "proyecto": "Fitness App",
+      "link-demo": "https://example.com/fitnessapp",
+      "link-repo": "https://example.com/fitnessapp",
+      "techs": ["ember", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/fitnessapp.png"
+    },
+    {
+      "id": 39,
+      "proyecto": "Cooking Recipes",
+      "link-demo": "https://example.com/cookingrecipes",
+      "link-repo": "https://example.com/cookingrecipes",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/cookingrecipes.png"
+    },
+    {
+      "id": 40,
+      "proyecto": "Crypto Tracker",
+      "link-demo": "https://example.com/cryptotracker",
+      "link-repo": "https://example.com/cryptotracker",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/cryptotracker.png"
+    },
+    {
+      "id": 41,
+      "proyecto": "Reading List",
+      "link-demo": "https://example.com/readinglist",
+      "link-repo": "https://example.com/readinglist",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/readinglist.png"
+    },
+    {
+      "id": 42,
+      "proyecto": "Event Booking",
+      "link-demo": "https://example.com/eventbooking",
+      "link-repo": "https://example.com/eventbooking",
+      "techs": ["svelte", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/eventbooking.png"
+    },
+    {
+      "id": 43,
+      "proyecto": "Travel Blog",
+      "link-demo": "https://example.com/travelblog",
+      "link-repo": "https://example.com/travelblog",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/travelblog.png"
+    },
+    {
+      "id": 44,
+      "proyecto": "Health Tracker",
+      "link-demo": "https://example.com/healthtracker",
+      "link-repo": "https://example.com/healthtracker",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/healthtracker.png"
+    },
+    {
+      "id": 45,
+      "proyecto": "Language Practice",
+      "link-demo": "https://example.com/languagepractice",
+      "link-repo": "https://example.com/languagepractice",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/languagepractice.png"
+    },
+    {
+      "id": 46,
+      "proyecto": "Yoga App",
+      "link-demo": "https://example.com/yogaapp",
+      "link-repo": "https://example.com/yogaapp",
+      "techs": ["gatsby", "react", "css", "html"],
+      "imagen": "https://example.com/images/yogaapp.png"
+    },
+    {
+      "id": 47,
+      "proyecto": "Music Streaming",
+      "link-demo": "https://example.com/musicstreaming",
+      "link-repo": "https://example.com/musicstreaming",
+      "techs": ["nuxt", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/musicstreaming.png"
+    },
+    {
+      "id": 48,
+      "proyecto": "Podcast App",
+      "link-demo": "https://example.com/podcastapp",
+      "link-repo": "https://example.com/podcastapp",
+      "techs": ["ember", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/podcastapp.png"
+    },
+    {
+      "id": 49,
+      "proyecto": "Meal Planner",
+      "link-demo": "https://example.com/mealplanner",
+      "link-repo": "https://example.com/mealplanner",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/mealplanner.png"
+    },
+    {
+      "id": 50,
+      "proyecto": "Pet Care",
+      "link-demo": "https://example.com/petcare",
+      "link-repo": "https://example.com/petcare",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/petcare.png"
+    },
+    {
+      "id": 51,
+      "proyecto": "Budget Manager",
+      "link-demo": "https://example.com/budgetmanager",
+      "link-repo": "https://example.com/budgetmanager",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/budgetmanager.png"
+    },
+    {
+      "id": 52,
+      "proyecto": "Stock Tracker",
+      "link-demo": "https://example.com/stocktracker",
+      "link-repo": "https://example.com/stocktracker",
+      "techs": ["svelte", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/stocktracker.png"
+    },
+    {
+      "id": 53,
+      "proyecto": "Recipe Organizer",
+      "link-demo": "https://example.com/recipeorganizer",
+      "link-repo": "https://example.com/recipeorganizer",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/recipeorganizer.png"
+    },
+    {
+      "id": 54,
+      "proyecto": "Workout Tracker",
+      "link-demo": "https://example.com/workouttracker",
+      "link-repo": "https://example.com/workouttracker",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/workouttracker.png"
+    },
+    {
+      "id": 55,
+      "proyecto": "Daily Journal",
+      "link-demo": "https://example.com/dailyjournal",
+      "link-repo": "https://example.com/dailyjournal",
+      "techs": ["angular", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/dailyjournal.png"
+    },
+    {
+      "id": 56,
+      "proyecto": "Travel Planner",
+      "link-demo": "https://example.com/travelplanner",
+      "link-repo": "https://example.com/travelplanner",
+      "techs": ["gatsby", "react", "css", "html"],
+      "imagen": "https://example.com/images/travelplanner.png"
+    },
+    {
+      "id": 57,
+      "proyecto": "Fitness Journal",
+      "link-demo": "https://example.com/fitnessjournal",
+      "link-repo": "https://example.com/fitnessjournal",
+      "techs": ["nuxt", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/fitnessjournal.png"
+    },
+    {
+      "id": 58,
+      "proyecto": "Event Calendar",
+      "link-demo": "https://example.com/eventcalendar",
+      "link-repo": "https://example.com/eventcalendar",
+      "techs": ["ember", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/eventcalendar.png"
+    },
+    {
+      "id": 59,
+      "proyecto": "Weight Tracker",
+      "link-demo": "https://example.com/weighttracker",
+      "link-repo": "https://example.com/weighttracker",
+      "techs": ["vue", "javascript", "css", "html"],
+      "imagen": "https://example.com/images/weighttracker.png"
+    },
+    {
+      "id": 60,
+      "proyecto": "Sleep Tracker",
+      "link-demo": "https://example.com/sleeptracker",
+      "link-repo": "https://example.com/sleeptracker",
+      "techs": ["react", "typescript", "css", "html"],
+      "imagen": "https://example.com/images/sleeptracker.png"
+    }
+  ]
+}

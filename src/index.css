@@ -1,33 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Paytone+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .title-animate {
-  animation: text-animate 5s linear infinite;
-  rotate: 180deg;
+  display: flex;
+  animation: text-animate 10s linear infinite;
 }
-.title-animate2 {
-  transform: translateY(-100%);
-  animation: text-animate2 5s 2.5s linear infinite;
-  rotate: 180deg;
-}
-
 @keyframes text-animate {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(0);
   }
   100% {
-    transform: translateY(100vh);
-  }
-}
-@keyframes text-animate2 {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(100vh);
+    transform: translateY(calc((100% * 3)));
   }
 }

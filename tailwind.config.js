@@ -7,6 +7,7 @@ export default {
         "bowlby": ["Bowlby One", "sans-serif"],
         "paytone": ["Paytone One", "sans-serif"],
         "bebas": ["Bebas Neue", "sans-serif"],
+        "amatic": ["Amatic SC", "sans-serif"]
       },
       colors: {
         "primary": "#f87664",

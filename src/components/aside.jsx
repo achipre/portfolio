@@ -3,8 +3,6 @@ import "./aside.css";
 
 import info from '../assets/projects.json'
 
-console.log(info.projects.length);
-
 export const Aside = ({theme,configTheme, selectTech, handletech }) => {
   return (
     <aside className={`scroll-hidden relative sm:relative lg:fixed overflow-y-scroll flex flex-col lg:h-full select-none ${configTheme === 0 ? 'bg-'+theme[1]: 'bg-'+theme[0]} p-6 sm:p-8 lg:w-[35%] xl:w-[410px]`}>

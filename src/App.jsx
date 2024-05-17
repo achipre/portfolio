@@ -6,7 +6,7 @@ import { useTheme } from "./hooks/theme";
 function App() {
   const {configTheme, handleTheme, theme} = useTheme()
   return (
-    <main className={`flex flex-col md:flex-row min-w-72 relative h-screen bg-${theme[configTheme]}`}>
+    <main className={`flex flex-col md:flex-row min-w-72 min-h-[832px] relative h-screen bg-${theme[configTheme]}`}>
       {/* Button Theme */}
       <Theme theme={theme} handleTheme={handleTheme} configTheme={configTheme}/>
       {/* Aside Left */}
@@ -14,7 +14,7 @@ function App() {
       {/* Main */}
       <main className="relative w-full flex">
         <TitleProyect configTheme={configTheme}/>
-        <img className="md:absolute object-cover aspect-square  md:object-cover w-full h-full" src="tictactoe.jpg" alt="Calculadora" />
+        <img className="md:absolute object-cover aspect-square md:object-cover w-full h-full" src="tictactoe.jpg" alt="Calculadora" />
       </main>
     </main>
   );

@@ -12,7 +12,12 @@ export default {
       colors: {
         "primary": "#f87664",
         "secondary": "#f5eadd"
-      }
+      },
+      screens: {
+        "xs": {'min': '375px', 'max': '639px'},
+        "md": {'min': '1024px'}
+      },
+
     },
   },
   plugins: [],

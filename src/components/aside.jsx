@@ -1,4 +1,4 @@
-import { IconsPortfolio, IconsTechAngular, IconsTechFigma, IconsTechFirebase, IconsTechNode, IconsTechReact, IconsTechThreejs, IconsTechVite, IconsTechVue, IconsTechs } from "../assets/Icons"
+import { IconsPortfolio, IconsTechAngular, IconsTechAstro, IconsTechExpress, IconsTechFigma, IconsTechFirebase, IconsTechGo, IconsTechJavaScript, IconsTechJest, IconsTechNest, IconsTechNext, IconsTechNode, IconsTechPHP, IconsTechPlayWrite, IconsTechReact, IconsTechRedux, IconsTechRuby, IconsTechTailwind, IconsTechThreejs, IconsTechTypeScript, IconsTechVite, IconsTechVue, IconsTechs } from "../assets/Icons"
 
 export const Aside = ({theme,configTheme}) => {
   return (
@@ -15,21 +15,34 @@ export const Aside = ({theme,configTheme}) => {
           <span className={`uppercase font-amatic text-3xl sm:text-4xl ${configTheme === 0 ? 'text-[#4f4f4f]': 'text-[#e7e7e7]'}`}>UX/UI</span>  projects and more.
         </p>
 
-        <h2 className={`font-bowlby flex items-center gap-2 text-2xl sm:text-4xl md:text-2xl sm:text-center ${configTheme === 0 ? 'text-primary': 'text-secondary'} sm:justify-center pb-2`}>
+        <h2 className={`font-bowlby flex row items-center gap-2 text-2xl sm:text-4xl md:text-2xl sm:text-center ${configTheme === 0 ? 'text-primary': 'text-secondary'} sm:justify-center pb-2`}>
           <IconsTechs fill={configTheme} />
           Technologies
         </h2>
-        <section className="pt-1 pb-8 flex gap-2 items-center">
-          <IconsTechVite isActive={true} isPrimary={configTheme} />
-          <IconsTechReact isActive={true} isPrimary={configTheme} />
-          <IconsTechVue isActive={true} isPrimary={configTheme} />
-          <IconsTechAngular isActive={true} isPrimary={configTheme} />
-          <IconsTechNode isActive={true} isPrimary={configTheme} />
-          <IconsTechFigma isActive={true} isPrimary={configTheme} />
-          <IconsTechFirebase isActive={true} isPrimary={configTheme} />
-          <IconsTechThreejs isActive={true} isPrimary={configTheme} />
+        <section className="pt-1 pb-8 flex flex-wrap gap-2 items-center">
+          <IconsTechVite isActive={false} isPrimary={configTheme} />
+          <IconsTechJavaScript isActive={false} isPrimary={configTheme} />
+          <IconsTechTypeScript isActive={false} isPrimary={configTheme} />
+          <IconsTechAstro isActive={false} isPrimary={configTheme} />
+          <IconsTechReact isActive={false} isPrimary={configTheme} />
+          <IconsTechRedux isActive={false} isPrimary={configTheme} />
+          <IconsTechNext isActive={false} isPrimary={configTheme} />
+          <IconsTechVue isActive={false} isPrimary={configTheme} />
+          <IconsTechAngular isActive={false} isPrimary={configTheme} />
+          <IconsTechNode isActive={false} isPrimary={configTheme} />
+          <IconsTechExpress isActive={false} isPrimary={configTheme} />
+          <IconsTechNest isActive={false} isPrimary={configTheme} />
+          <IconsTechFirebase isActive={false} isPrimary={configTheme} />
+          <IconsTechThreejs isActive={false} isPrimary={configTheme} />
+          <IconsTechTailwind isActive={false} isPrimary={configTheme} />
+          <IconsTechFigma isActive={false} isPrimary={configTheme} />
+          <IconsTechJest isActive={false} isPrimary={configTheme} />
+          <IconsTechPlayWrite isActive={false} isPrimary={configTheme} />
+          <IconsTechGo isActive={false} isPrimary={configTheme} />
+          <IconsTechRuby isActive={false} isPrimary={configTheme} />
+          <IconsTechPHP isActive={false} isPrimary={configTheme} />
         </section>
-        <h2 className={`font-bowlby text-2xl sm:text-4xl md:text-[4vw] lg:text-4xl sm:text-center ${configTheme === 0 ? 'text-primary': 'text-secondary'}`}>Redes</h2>
+        <h2 className={`font-bowlby flex items-center gap-2 text-2xl sm:text-4xl md:text-2xl sm:text-center ${configTheme === 0 ? 'text-primary': 'text-secondary'} sm:justify-center pb-2`}>Redes</h2>
       </aside>
   )
 }

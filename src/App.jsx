@@ -7,6 +7,8 @@ import { useSelect } from "./hooks/selectTech";
 function App() {
   const {configTheme, handleTheme, theme} = useTheme()
   const {handleTech, selectTech} = useSelect()
+  // const body = document.body.className
+  configTheme === 0 ? document.body.className = 'bg-primary' : document.body.className = 'bg-secondary' 
   
   return (
     <main className={`relative flex flex-col md:flex-row w-full min-w-72 min-h-[832px] h-screen bg-${theme[configTheme]}`}>

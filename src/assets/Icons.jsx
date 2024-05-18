@@ -28,22 +28,22 @@ export const IconsSocial = ({fill}) => {
   )
 }
 
-export const IconsTechVite = ({isActive, isPrimary,handletech}) => {
+export const IconsTechVite = ({isActive, isPrimary,handletech, handleTooltip}) => {
   return (
-    <svg onClick={() => handletech(true)} className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 lg:w-[52px] lg:h-[52px] xl:w-[54px] xl:h-[54px]" width="100" height="100" viewBox="0 0 100 100" >
+    <svg onClick={() => handletech(true)} onMouseEnter={handleTooltip} onMouseLeave={handleTooltip} className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 lg:w-[52px] lg:h-[52px] xl:w-[54px] xl:h-[54px] cursor-pointer" width="100" height="100" viewBox="0 0 100 100" >
       <rect className={`${isActive ? 'fill-[#242938] ': isPrimary ? 'fill-secondary': 'fill-primary'}`} x="5" y="5" width="90" height="90" rx="16" fill="#242938"/>
       <path className={`${isActive ? 'fill-[url(#paint0_linear_203_237)] ': isPrimary ? 'fill-primary': 'fill-secondary'}`} d="M84.8357 25.2507L51.8479 84.2383C51.1666 85.4565 49.4168 85.4635 48.7257 84.2517L15.0836 25.256C14.3305 23.9355 15.4598 22.3359 16.9567 22.6034L49.9797 28.5062C50.1904 28.5437 50.4062 28.5433 50.6167 28.5048L82.9492 22.6115C84.4409 22.3398 85.5754 23.9271 84.8357 25.2507Z" fill="url(#paint0_linear_203_237)"/>
       <path className={`${isActive ? 'fill-[url(#paint1_linear_203_237)] ': isPrimary ? 'stroke-secondary fill-primary': 'stroke-primary fill-secondary'}`} d="M65.7104 14.8613L41.2986 19.6444C41.1035 19.6825 40.9267 19.7844 40.7959 19.9341C40.6651 20.0838 40.5878 20.2728 40.5762 20.4712L39.0743 45.8333C39.0661 45.9723 39.0904 46.1114 39.1453 46.2394C39.2002 46.3674 39.2842 46.4809 39.3906 46.5708C39.497 46.6607 39.6228 46.7246 39.7582 46.7574C39.8936 46.7901 40.0347 46.7909 40.1705 46.7597L46.9672 45.1913C47.6032 45.0447 48.1777 45.6048 48.0472 46.2443L46.0279 56.1323C45.8918 56.7978 46.5169 57.3667 47.1666 57.1694L51.3646 55.894C52.0153 55.6964 52.6408 56.267 52.5029 56.9332L49.2939 72.4649C49.0931 73.4366 50.3855 73.9664 50.9244 73.1332L51.2844 72.577L71.1765 32.8786C71.5098 32.2141 70.9354 31.4561 70.2052 31.5968L63.2094 32.9471C62.552 33.0737 61.9927 32.4616 62.1779 31.8186L66.7444 15.9892C66.93 15.3451 66.3686 14.7327 65.7104 14.8613Z" strokeWidth={isActive ? '0':'2'} />
       <defs>
-      <linearGradient id="paint0_linear_203_237" x1="14.2623" y1="20.4951" x2="55.3182" y2="76.2522" gradientUnits="userSpaceOnUse">
-      <stop stopColor="#41D1FF"/>
-      <stop offset="1" stopColor="#BD34FE"/>
-      </linearGradient>
-      <linearGradient id="paint1_linear_203_237" x1="48.0845" y1="16.1597" x2="55.5113" y2="67.107" gradientUnits="userSpaceOnUse">
-      <stop stopColor="#FFEA83"/>
-      <stop offset="0.083" stopColor="#FFDD35"/>
-      <stop offset="1" stopColor="#FFA800"/>
-      </linearGradient>
+        <linearGradient id="paint0_linear_203_237" x1="14.2623" y1="20.4951" x2="55.3182" y2="76.2522" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#41D1FF"/>
+          <stop offset="1" stopColor="#BD34FE"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_203_237" x1="48.0845" y1="16.1597" x2="55.5113" y2="67.107" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FFEA83"/>
+          <stop offset="0.083" stopColor="#FFDD35"/>
+          <stop offset="1" stopColor="#FFA800"/>
+        </linearGradient>
       </defs>
     </svg>
   )

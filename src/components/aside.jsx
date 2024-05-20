@@ -1,15 +1,13 @@
-import { IconsGithub, IconsInstagram, IconsLinkedin, IconsPage, IconsPortfolio, IconsProyect, IconsSocial, IconsTechAngular, IconsTechAstro, IconsTechExpress, IconsTechFigma, IconsTechFirebase, IconsTechGo, IconsTechJavaScript, IconsTechJest, IconsTechNest, IconsTechNext, IconsTechNode, IconsTechPHP, IconsTechPlayWrite, IconsTechReact, IconsTechRedux, IconsTechRuby, IconsTechTailwind, IconsTechThreejs, IconsTechTypeScript, IconsTechVite, IconsTechVue, IconsTechs, IconsTwitter } from "../assets/Icons"
+import { SocialComponent } from "./socialComponent";
+import { IconAngular, IconAstro, IconExpress, IconFigma, IconFirebase, IconGo, IconJavaScript, IconJest, IconNest, IconNode, IconPHP, IconPlayWrite, IconReact, IconRedux, IconRuby, IconTailwind, IconThreejs, IconTypeScript, IconVite, IconVue, IconsNext } from "./iconTech";
+import { IconsPortfolio, IconsProyect, IconsSocial, IconsTechs } from "../assets/Icons"
 import "./aside.css";
 
 import info from '../assets/projects.json'
-import {socials} from '../assets/socials'
 
-import { useState } from "react";
 
-export const Aside = ({theme,configTheme, selectTech, handletech }) => {
-  console.log(socials);
-  const [tooltip, setTooltip] = useState(false)
-  const handleTooltip = () => setTooltip(!tooltip)
+export const Aside = ({theme,configTheme}) => {
+  
   return (
     <aside className={`scroll-hidden relative sm:relative lg:fixed overflow-y-scroll flex flex-col lg:h-full select-none ${configTheme === 0 ? 'bg-'+theme[1]: 'bg-'+theme[0]} p-6 sm:p-8 lg:w-[35%] xl:w-[410px]`}>
       {/* Title */}
@@ -38,30 +36,27 @@ export const Aside = ({theme,configTheme, selectTech, handletech }) => {
         </h2>
         <section className="flex w-full justify-center">
           <div className="pt-1 pb-6 flex flex-wrap gap-2 lg:gap-1 justify-evenly xs:max-w-[356px] sm:max-w-[610px] lg:min-w-[290px]">
-            <div className="relative data-[hov=tool]:hover:p-8">
-              <IconsTechVite isActive={selectTech} handletech={handletech} isPrimary={configTheme} handleTooltip={handleTooltip} />
-              <span className={`${configTheme === 0 ? 'bg-primary text-secondary': 'bg-secondary text-primary'} ${tooltip ? 'block':'hidden'} absolute top-0 left-1/2 -translate-x-1/2 -translate-y-full px-2 rounded-md font-paytone`}>Vite</span>
-            </div>
-            <IconsTechJavaScript isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechTypeScript isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechAstro isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechReact isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechRedux isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechNext isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechVue isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechAngular isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechNode isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechExpress isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechNest isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechFirebase isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechThreejs isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechTailwind isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechFigma isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechJest isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechPlayWrite isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechGo isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechRuby isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
-            <IconsTechPHP isActive={selectTech} handletech={handletech} isPrimary={configTheme} />
+            <IconVite configTheme={configTheme}/>
+            <IconJavaScript configTheme={configTheme}/>
+            <IconTypeScript configTheme={configTheme}/>
+            <IconAstro configTheme={configTheme}/>
+            <IconReact configTheme={configTheme}/>
+            <IconRedux configTheme={configTheme}/>
+            <IconsNext configTheme={configTheme}/>
+            <IconVue configTheme={configTheme}/>
+            <IconAngular configTheme={configTheme}/>
+            <IconNode configTheme={configTheme}/>
+            <IconExpress configTheme={configTheme}/>
+            <IconNest configTheme={configTheme}/>
+            <IconJest configTheme={configTheme}/>
+            <IconPlayWrite configTheme={configTheme}/>
+            <IconFirebase configTheme={configTheme}/>
+            <IconThreejs configTheme={configTheme}/>
+            <IconTailwind configTheme={configTheme}/>
+            <IconFigma configTheme={configTheme}/>
+            <IconGo configTheme={configTheme}/>
+            <IconRuby configTheme={configTheme}/>
+            <IconPHP configTheme={configTheme}/>
           </div>
         </section>
        {/* Social Media */}
@@ -70,26 +65,7 @@ export const Aside = ({theme,configTheme, selectTech, handletech }) => {
           Social media:
         </h2>
         <section className="pt-1 sm:pb-2 flex justify-center flex-wrap gap-2 items-center">
-          {/* {socials.map(data => (
-          <a key={data.id} href={data.link} target="_blank" rel="noopener noreferrer">
-            {data.component}
-          </a>
-          ))} */}
-          <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noopener noreferrer" title="Instagram">
-            <IconsInstagram isPrimary={configTheme} />
-          </a>
-          <a href="https://twitter.com/chipredev" target="_blank" rel="noopener noreferrer" title="Twitter">
-            <IconsTwitter isPrimary={configTheme} />
-          </a>
-          <a href="https://github.com/achipre" target="_blank" rel="noopener noreferrer" title="Github">
-            <IconsGithub isPrimary={configTheme}  />
-          </a>
-          <a href="https://www.linkedin.com/in/alexchipre/" target="_blank" rel="noopener noreferrer" title="Linkedin">
-            <IconsLinkedin isPrimary={configTheme}  />
-          </a>
-          <a href="https://chipre.netlify.app/" target="_blank" rel="noopener noreferrer" title="Blog">
-            <IconsPage isPrimary={configTheme}  />
-          </a>
+          <SocialComponent configTheme={configTheme}/>
         </section>
       </aside>
   )

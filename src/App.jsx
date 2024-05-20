@@ -1,13 +1,9 @@
 import { Aside } from "./components/aside";
 import { Theme } from "./components/theme";
-// import { TitleProyect } from "./components/title";
 import { useTheme } from "./hooks/theme";
-import { useSelect } from "./hooks/selectTech";
 
 function App() {
   const {configTheme, handleTheme, theme} = useTheme()
-  const {handleTech, selectTech} = useSelect()
-  // const body = document.body.className
   configTheme === 0 ? document.body.className = 'bg-primary' : document.body.className = 'bg-secondary' 
   
   return (
@@ -15,7 +11,7 @@ function App() {
       {/* Button Theme */}
       <Theme theme={theme} handleTheme={handleTheme} configTheme={configTheme} />
       {/* Aside Left */}
-      <Aside theme={theme} configTheme={configTheme} handletech={handleTech} selectTech={selectTech}/>
+      <Aside theme={theme} configTheme={configTheme} />
       {/* Main */}
       <main className="relative lg:fixed lg:w-[65%] xl:w-[calc(100%_-_410px)] flex ml-auto ">
         {/* <TitleProyect configTheme={configTheme}/>

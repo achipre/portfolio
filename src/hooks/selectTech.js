@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export const useSelect = (isSelect = false) => {
+export const useSelectTech = (isSelect = false) => {
   const [selectTech, setSelectTech] = useState(isSelect)
   const handleTech = () => setSelectTech(!selectTech)
   

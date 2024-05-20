@@ -3,7 +3,7 @@ import { IconAngular, IconAstro, IconExpress, IconFigma, IconFirebase, IconGo, I
 import { IconsPortfolio, IconsProyect, IconsSocial, IconsTechs } from "../assets/Icons"
 import "./aside.css";
 
-import info from '../assets/projects.json'
+import { CounterProject } from "./counterProject";
 
 
 export const Aside = ({theme,configTheme}) => {
@@ -27,7 +27,7 @@ export const Aside = ({theme,configTheme}) => {
           <IconsProyect fill={configTheme} />
           Projects:</h2>
           <p className={`font-bowlby flex items-center gap-2 text-3xl xs:text-5xl sm:text-6xl md:text-[5vw] lg:text-5xl xl:text-6xl  sm:justify-center lg:justify-center ${configTheme === 0 ? 'text-primary': 'text-secondary'} pb-6 justify-center`}>
-          {info.projects.length}
+          <CounterProject />
         </p>
         {/* Technologies */}
         <h2 className={`font-bowlby mt-auto flex row items-center gap-2 text-2xl sm:text-3xl lg:text-2xl xl:text-3xl sm:text-center ${configTheme === 0 ? 'text-primary': 'text-secondary'} sm:justify-center pb-0 xs:pb-1 sm:pb-2`}>
